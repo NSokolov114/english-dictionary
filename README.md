@@ -2,7 +2,20 @@
 1000, 8000 top English words in a txt file - for building your word games
 
 
-## Using the Dictionary in JavaScript:
+## How to use the Dictionary (JavaScript)
 
-const tmp = 'copy-paste words from the txt file'
-const dictionary = tmp.split(', ')
+### Generate the array from the dictionary string:
+  
+```JavaScript
+const tmp = 'copy-paste all the words from the txt file';  
+const dictionary = tmp.split(', ');  // ['ABLE', 'ABOUT', 'ABOVE', ...]  
+```
+
+### Get a random word from your dictionary
+```JavaScript
+function getRandomWord() {  
+  return dictionary[Math.floor(Math.random() * dictionary.length)]  
+}  
+let word = getRandomWord();  
+console.log(word);  // HELLO
+```
