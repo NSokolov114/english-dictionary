@@ -1,8 +1,17 @@
 # English Dictionary for building your Hangman game
 There are few txt files containing a number of top English words:  
-~ 1000 most used English words  
-~ 8000 most used English words  
+~ [1000 most used English words](/1k-top-english-words.txt) (best for testing)  
+~ [5000 most used English words](/5k-top-english-words.txt)  
+~ [8000 most used English words](/8k-top-english-words.txt)  
+~ [10000 most used English words](/10k-top-english-words.txt) (best for playing)  
+~ [13000 most used English words](/13k-top-english-words.txt)  
 
+## Disclaimer
+Those are the most used English words. I can't get a credit to the person who did this work of collecting a number of books and articles and sorting them - I downloaded those dictionaries in ~2010 and can't find the source.  
+You may find some of these words offensive.  
+You may find some remaining duplicates ('color' and 'colour')  
+You may find some of these words useless ('aye', 'an') or missing spaces or hyphens ('guineapig' instead of 'guinea pig').
+I did my best to clean the dictionaries, but if you're going to use them commercially, make sure to check the words first.  
 
 ## How to use the Dictionary (JavaScript)
 
