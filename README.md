@@ -35,7 +35,7 @@ console.log(word);  // HELLO
 ### You may set the minimal length of the random word (it's hard to guess a really short word):
 
 ```Javascript
-const minLength = 4;
+const minLength = 6;
 let longerWord = '';
 let counter = 0;
 
@@ -44,11 +44,11 @@ while (longerWord.length < minLength) {
   longerWord = getRandomWord();
   counter++;
   if (counter > 1000) {  
-    console.log('Failed to find a long enough word!')
-    break;               // prevent getting into the infinite loop
+    console.log('Failed to find a long enough word!');
+    break;               // prevents getting into the infinite loop
   }                      // if conditions you've set are too strict 
 }
-console.log(longerWord);
+console.log(longerWord); // COOKIE
 ```
 
 You can use this code sample to also set a maximum length, or generate a word with fixed length:
