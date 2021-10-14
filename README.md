@@ -45,8 +45,8 @@ while (longerWord.length < minLength) {
   counter++;
   if (counter > 1000) {  
     console.log('Failed to find a long enough word!')
-    break;               // without this line in case you set a really high,
-  }                      // you'll get into the infinite loop
+    break;               // prevent getting into the infinite loop
+  }                      // if conditions you've set are too strict 
 }
 console.log(longerWord);
 ```
