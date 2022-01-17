@@ -7,11 +7,11 @@ There are few txt files containing a number of top English words:
 ~ [13000 most used English words](/13k-top-english-words.txt)  
 
 ## Disclaimer
-Those are the most used English words. I can't get a credit to the person who did this work of collecting a number of books and articles and sorting them - I downloaded those dictionaries in ~2010 and can't find the source.  
+Those are the most used English words. I downloaded the 13k dictionary back in 2010 and can't find the source. I remember the author saying that they merged a number of books, web articles and posts on forums into one big blob and sorted all the words.
+I did my best to clean the dictionaries, but if you're going to use them commercially, make sure to check the words first.
 You may find some of these words offensive.  
 You may find some remaining duplicates ('color' and 'colour')  
 You may find some of these words useless ('aye', 'an') or missing spaces or hyphens ('guineapig' instead of 'guinea pig').
-I did my best to clean the dictionaries, but if you're going to use them commercially, make sure to check the words first.  
 
 ## How to use the Dictionary (JavaScript)
 
@@ -60,3 +60,6 @@ while (longerWord.length < minLength || longerWord.length > maxLength) {...};
 const fixedLength = 6;
 while (longerWord.length !== fixedLength) {...};
 ```
+
+## Games
+[Hangman in console (Python)](https://github.com/NSokolov114/Hangman_Python)
