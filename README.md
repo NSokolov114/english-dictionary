@@ -1,15 +1,15 @@
 # English Dictionary for building your Hangman game
 There are few txt files containing a number of top English words:  
-~ [1000 most used English words](/1k-top-english-words.txt) (best for testing)  
+~ [1000 most used English words](/1k-top-english-words.txt) (for quick tests)  
 ~ [5000 most used English words](/5k-top-english-words.txt)  
 ~ [8000 most used English words](/8k-top-english-words.txt)  
-~ [10000 most used English words](/10k-top-english-words.txt) (best for playing)  
+~ [10000 most used English words](/10k-top-english-words.txt)  
 ~ [13000 most used English words](/13k-top-english-words.txt)  
 
 ## Disclaimer
-Those are the most used English words. I downloaded the 13k dictionary back in 2010 and can't find the source. I remember the author saying that they merged a number of books, web articles and posts on forums into one big blob and sorted all the words.  
-I did my best to clean the dictionaries, but if you're going to use them commercially, make sure to check the words first.  
-You may find some of these words offensive.  
+Those are the most used English words. I downloaded the 13k dictionary back in 2010 and can't find the source. I remember the author saying that they merged a number of books, web articles and posts on forums into one big text file and sorted all the words.  
+I did my best to clean the dictionaries, but make sure to check the words first.  
+You may find some of these words offensive (I removed only the words I know).  
 You may find some remaining duplicates ('color' and 'colour')  
 You may find some of these words useless ('aye', 'an') or missing spaces or hyphens ('guineapig' instead of 'guinea pig').
 
@@ -62,4 +62,4 @@ while (longerWord.length !== fixedLength) {...};
 ```
 
 ## Games
-[Hangman in console (Python)](https://github.com/NSokolov114/Hangman_Python)
+[Console Hangman (Python)](https://github.com/NSokolov114/Hangman_Python)
