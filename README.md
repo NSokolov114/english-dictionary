@@ -1,5 +1,5 @@
 # English Dictionary for building your Hangman game
-There are few txt files containing a number of top English words:  
+Choose the dictionary based on your requirements:  
 ~ [1000 most used English words](/1k-top-english-words.txt) (for quick tests)  
 ~ [5000 most used English words](/5k-top-english-words.txt)  
 ~ [8000 most used English words](/8k-top-english-words.txt)  
@@ -61,5 +61,5 @@ const fixedLength = 6;
 while (longerWord.length !== fixedLength) {...};
 ```
 
-## Games
+## Examples of using the dictionary
 [Console Hangman (Python)](https://github.com/NSokolov114/Hangman_Python)
